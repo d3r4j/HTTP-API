@@ -22,6 +22,7 @@ export class TabelDataComponent implements OnInit {
       next: (res) => {
         console.log(res)
         this.user = res
+        console.log(this.user)
       }
     })
   }
