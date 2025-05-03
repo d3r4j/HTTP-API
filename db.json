@@ -1,0 +1,257 @@
+{
+  "users": [
+    {
+      "id": "4",
+      "name": "Sarah Johnson",
+      "username": "sarahj23",
+      "email": "sarah.johnson@example.com",
+      "address": {
+        "street": "Hoeger Mall",
+        "suite": "Apt. 692",
+        "city": "South Elvis",
+        "zipcode": "53919-4257",
+        "geo": {
+          "lat": "29.4572",
+          "lng": "-164.2990"
+        }
+      },
+      "phone": "493-170-9623 x156",
+      "website": "sarahjohnson.dev",
+      "company": {
+        "name": "Robel-Corkery",
+        "catchPhrase": "Multi-tiered zero tolerance productivity",
+        "bs": "transition cutting-edge web services"
+      }
+    },
+    {
+      "id": "5",
+      "name": "Chelsey Dietrich",
+      "username": "cdietrich",
+      "email": "chelsey.dietrich@example.com",
+      "address": {
+        "street": "Skiles Walks",
+        "suite": "Suite 351",
+        "city": "Roscoeview",
+        "zipcode": "33263",
+        "geo": {
+          "lat": "-31.8129",
+          "lng": "62.5342"
+        }
+      },
+      "phone": "(254) 954-1289",
+      "website": "chelseyd.dev",
+      "company": {
+        "name": "Keebler LLC",
+        "catchPhrase": "User-centric fault-tolerant solution",
+        "bs": "revolutionize end-to-end systems"
+      }
+    },
+    {
+      "id": "6",
+      "name": "Dennis Schulist",
+      "username": "denniss",
+      "email": "dennis.schulist@example.com",
+      "address": {
+        "street": "Norberto Crossing",
+        "suite": "Apt. 950",
+        "city": "South Christy",
+        "zipcode": "23505-1337",
+        "geo": {
+          "lat": "-71.4197",
+          "lng": "71.7478"
+        }
+      },
+      "phone": "1-477-935-8478 x6430",
+      "website": "denniss.dev",
+      "company": {
+        "name": "Considine-Lockman",
+        "catchPhrase": "Synchronised bottom-line interface",
+        "bs": "e-enable innovative applications"
+      }
+    },
+    {
+      "id": "8",
+      "name": "Nicholas Runolfsdottir",
+      "username": "nrunolfs",
+      "email": "nicholas.r@example.com",
+      "address": {
+        "street": "Ellsworth Summit",
+        "suite": "Suite 729",
+        "city": "Aliyaview",
+        "zipcode": "45169",
+        "geo": {
+          "lat": "-14.3990",
+          "lng": "-120.7677"
+        }
+      },
+      "phone": "586-493-6943 x140",
+      "website": "nicholas.dev",
+      "company": {
+        "name": "Abernathy Group",
+        "catchPhrase": "Implemented secondary concept",
+        "bs": "e-enable extensible e-tailers"
+      }
+    },
+    {
+      "id": "9",
+      "name": "Glenna Reichert",
+      "username": "greichert",
+      "email": "glenna.reichert@example.com",
+      "address": {
+        "street": "Dayna Park",
+        "suite": "Suite 449",
+        "city": "Bartholomebury",
+        "zipcode": "76495-3109",
+        "geo": {
+          "lat": "24.6463",
+          "lng": "-168.8889"
+        }
+      },
+      "phone": "(775) 976-6794",
+      "website": "glenna.dev",
+      "company": {
+        "name": "Yost and Sons",
+        "catchPhrase": "Switchable contextually-based project",
+        "bs": "aggregate real-time technologies"
+      }
+    },
+    {
+      "id": "10",
+      "name": "Clementina DuBuque",
+      "username": "clementina",
+      "email": "clementina.d@example.com",
+      "address": {
+        "street": "Kattie Turnpike",
+        "suite": "Suite 198",
+        "city": "Lebsackbury",
+        "zipcode": "31428-2261",
+        "geo": {
+          "lat": "-38.2386",
+          "lng": "57.2232"
+        }
+      },
+      "phone": "024-648-380411",
+      "website": "clementina.dev",
+      "company": {
+        "name": "Hoeger LLC",
+        "catchPhrase": "Centralized empowering task-force",
+        "bs": "target end-to-end models"
+      }
+    },
+    {
+      "id": "11",
+      "name": "Nathan Lee",
+      "username": "nathanl",
+      "email": "nathan.lee@example.com",
+      "address": {
+        "street": "Douglas Extension",
+        "suite": "Suite 847",
+        "city": "McKenziehaven",
+        "zipcode": "59590-4157",
+        "geo": {
+          "lat": "-68.6102",
+          "lng": "-47.0653"
+        }
+      },
+      "phone": "1-463-123-4447",
+      "website": "nathanlee.dev",
+      "company": {
+        "name": "Romaguera-Jacobson",
+        "catchPhrase": "Face to face bifurcated interface",
+        "bs": "e-enable strategic applications"
+      }
+    },
+    {
+      "id": "12",
+      "name": "Ava Patel",
+      "username": "ava_p",
+      "email": "ava.patel@example.com",
+      "address": {
+        "street": "Sunset Avenue",
+        "suite": "Apt. 202",
+        "city": "San Francisco",
+        "zipcode": "94122",
+        "geo": {
+          "lat": "37.7699",
+          "lng": "-122.4862"
+        }
+      },
+      "phone": "555-872-1234",
+      "website": "avapatel.dev",
+      "company": {
+        "name": "TechNova",
+        "catchPhrase": "Innovative cloud-first solutions",
+        "bs": "streamline AI-driven platforms"
+      }
+    },
+    {
+      "id": "13",
+      "name": "Dhiraj Chauhan",
+      "username": "dhirajc",
+      "email": "dhiraj.chauhan@example.com",
+      "address": {
+        "street": "MG Road",
+        "suite": "Flat 501",
+        "city": "New Delhi",
+        "zipcode": "110001",
+        "geo": {
+          "lat": "28.6139",
+          "lng": "77.2090"
+        }
+      },
+      "phone": "9876543210",
+      "website": "dhiraj.dev",
+      "company": {
+        "name": "CodeCraft",
+        "catchPhrase": "Robust full-stack development",
+        "bs": "build scalable web ecosystems"
+      }
+    },
+    {
+      "id": "14",
+      "name": "Jake Long",
+      "username": "jakel",
+      "email": "jake.long@example.com",
+      "address": {
+        "street": "Palm Drive",
+        "suite": "Suite 12B",
+        "city": "Los Angeles",
+        "zipcode": "90001",
+        "geo": {
+          "lat": "34.0522",
+          "lng": "-118.2437"
+        }
+      },
+      "phone": "213-555-7890",
+      "website": "jakelong.dev",
+      "company": {
+        "name": "PixelLabs",
+        "catchPhrase": "Pixel-perfect UI/UX design",
+        "bs": "deliver immersive digital experiences"
+      }
+    },
+    {
+      "id": "15",
+      "name": "Stephanie Lee",
+      "username": "stephlee",
+      "email": "stephanie.lee@example.com",
+      "address": {
+        "street": "Main Street",
+        "suite": "Apt. 404",
+        "city": "Delhi",
+        "zipcode": "110092",
+        "geo": {
+          "lat": "28.6448",
+          "lng": "77.2167"
+        }
+      },
+      "phone": "9811122233",
+      "website": "stephlee.dev",
+      "company": {
+        "name": "InnoWorks",
+        "catchPhrase": "Next-gen collaboration tools",
+        "bs": "empower productivity at scale"
+      }
+    }
+  ]
+}

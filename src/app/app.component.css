@@ -1,0 +1,18 @@
+.btn {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+
+}
+
+button {
+    background-color: blueviolet;
+    color: white;
+    border-radius: 5px;
+    height: 35px;
+    cursor: pointer;
+}
+
+button:hover {
+    color: aqua;
+}
