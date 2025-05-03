@@ -16,3 +16,9 @@ button {
 button:hover {
     color: aqua;
 }
+
+.heading {
+    text-align: center;
+    color: blueviolet;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
