@@ -9,7 +9,7 @@ import { User } from '../interface/user';
 export class TabelService {
 
   constructor(private http: HttpClient) { }
-  api_url: string = "http://localhost:3000/users"
+  api_url: string = "https://http-api-4o6v.onrender.com"
 
   getdata() {
     return this.http.get(this.api_url)
