@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { TabelService } from '../service/tabel.service';
+import { Title } from '@angular/platform-browser';
 
 @Component({
   selector: 'album',

@@ -1,20 +1,22 @@
-<form (ngSubmit)="saveFrom()">
-    <label for="id">ID:</label>
-    <input type="number" placeholder="your id" [(ngModel)]="user.id" name="id" required>
-    <label for="name">NAME:</label>
-    <input type="text" placeholder="your name" [(ngModel)]="user.name" name="name" required>
-    <label for="username">username:</label>
-    <input type="text" placeholder="your username" [(ngModel)]="user.username" name="username">
-    <label for="email">email:</label>
-    <input type="email" placeholder="your email" [(ngModel)]="user.email" name="email">
-    <label for="address">address:</label>
-    <input type="text" placeholder="city" [(ngModel)]="user.address.city" name="address-city">
-    <label for="address">street:</label>
-    <input type="text" placeholder="address" [(ngModel)]="user.address.street" name="address-street">
-    <label for="number">phone number:</label>
-    <input type="text" placeholder="your phone number" [(ngModel)]="user.phone" name="phone">
+<div>
+    <form (ngSubmit)="saveFrom()">
+        <label for="id">ID:</label>
+        <input type="number" placeholder="your id" [(ngModel)]="user.id" name="id" required>
+        <label for="name">NAME:</label>
+        <input type="text" placeholder="your name" [(ngModel)]="user.name" name="name" required>
+        <label for="username">username:</label>
+        <input type="text" placeholder="your username" [(ngModel)]="user.username" name="username">
+        <label for="email">email:</label>
+        <input type="email" placeholder="your email" [(ngModel)]="user.email" name="email">
+        <label for="address">address:</label>
+        <input type="text" placeholder="city" [(ngModel)]="user.address.city" name="address-city">
+        <label for="address">street:</label>
+        <input type="text" placeholder="address" [(ngModel)]="user.address.street" name="address-street">
+        <label for="number">phone number:</label>
+        <input type="text" placeholder="your phone number" [(ngModel)]="user.phone" name="phone">
 
-    <button type="submit">Submit</button>
-    <a routerLink="/home" class="tabeldata"><button style="width:100%;">Cancel</button></a>
+        <button type="submit">Submit</button>
+        <a routerLink="/home" class="tabeldata"><button style="width:100%;">Cancel</button></a>
 
-</form>
+    </form>
+</div>

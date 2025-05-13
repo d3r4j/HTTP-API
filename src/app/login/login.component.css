@@ -1,0 +1,31 @@
+.login {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 200px;
+
+
+}
+
+form {
+    background-color: antiquewhite;
+
+}
+
+.elements {
+    margin-top: 10px;
+
+
+}
+
+
+label {
+    gap: 25px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+button {
+    gap: 25px;
+    margin-left: 20px;
+}

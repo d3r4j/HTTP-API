@@ -23,6 +23,7 @@ table {
     display: flex;
     justify-content: center;
     text-align: center;
+    margin-top: 20px;
 }
 
 .edit-btn {
@@ -54,7 +55,8 @@ table {
 
 .newbutton {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    gap: 10px;
 }
 
 .tabeldata {

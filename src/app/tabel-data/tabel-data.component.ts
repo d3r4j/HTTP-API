@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { TabelService } from '../service/tabel.service';
-import { User } from '../interface/user';
+import * as XLSX from 'xlsx'
 
 @Component({
   selector: 'app-tabel-data',
@@ -16,7 +16,8 @@ export class TabelDataComponent implements OnInit {
   }
 
   user: any = []
-
+  filtername: string = "";
+  filename = 'table-01.xlsx'
   mydata() {
     this.service.getdata().subscribe({
       next: (res) => {
@@ -44,12 +45,16 @@ export class TabelDataComponent implements OnInit {
   addData() {
     this.service
   }
+  // downlaode data
+  excelfile(): void {
+    let element = document.getElementById('tabelfile')
+    const ws: XLSX.WorkSheet = XLSX.utils.table_to_sheet(element)
 
-  // add_new_data() {
-  //   this.service.addempdta(this.user).subscribe({
-  //     next: (res) => {
-  //       alert("new user added successfully")
-  //     }
-  //   })
+    const wb: XLSX.WorkBook = XLSX.utils.book_new()
+
+    XLSX.utils.book_append_sheet(wb, ws, 'table-01')
+
+    XLSX.writeFile(wb, this.filename)
+  }
 }
 
